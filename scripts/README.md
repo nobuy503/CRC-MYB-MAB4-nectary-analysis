@@ -18,4 +18,6 @@ The analysis scripts used in the manuscript will be organized here in execution 
 
 - `source/10_cluster_marker_heatmap_exploration.R`: alternative exploratory heatmaps based on the top 100 or top 30 marker genes for each of the 22 Seurat clusters, including per-cell and cluster-average visualizations. It supports cluster-marker inspection and Supplementary Data 1, but is not the Flower-versus-Silique DEG heatmap in Fig. 1d.
 
+- `source/11_cluster15_reclustering_and_heatmap_exploration.R`: exploratory reclustering of integrated cluster 15, Flower/Silique origin annotation, marker feature plots and per-cell heatmaps of genes expressed across cluster 15. This examines heterogeneity within cluster 15 and does not reproduce Fig. 1d or the final Flower-only pseudotime panels.
+
 The source scripts contain exploratory commands as well as code used for figure preparation. The final reproducible versions will include explicit input instructions, streamlined plotting steps and named output files after the relevant figure panels and object-preparation workflow are confirmed.
