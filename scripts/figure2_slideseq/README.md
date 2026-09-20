@@ -33,11 +33,18 @@ Supplementary Data 5.
 - `exploratory/01_wt3_seurat_clustering_and_marker_plots.R`: WT_3 Seurat
   normalization, PCA, clustering, UMAP, spatial cluster mapping and marker-gene
   visualization underlying Fig. 2c, d and f-k.
+- `exploratory/02_wt5_seurat_clustering_and_marker_plots.R`: the corresponding
+  WT_5 workflow, used to inspect marker localization and the reproducibility of
+  the clustering pattern in an independently prepared wild-type library.
+
+Both wild-type scripts use 30 principal components for PCA, dimensions 1-10
+for neighbor finding and UMAP, and a Seurat clustering resolution of 0.5.
+These scripts are retained as exploratory, library-specific analyses rather
+than presented as a single combined-sample workflow.
 
 ## Still required
 
-- WT_5 processing and its role in downstream analyses.
-- crc_2 clustering, spatial maps and quality-metric map.
+- crc_2 clustering and spatial marker maps.
 - WT-versus-crc differential-expression analysis for Fig. 2m.
 - Gene-set overlap analysis for Fig. 2n.
 - Final WT-versus-crc dot plot for Fig. 2o.
