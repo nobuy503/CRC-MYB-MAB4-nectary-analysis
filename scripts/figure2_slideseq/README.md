@@ -36,17 +36,20 @@ Supplementary Data 5.
 - `exploratory/02_wt5_seurat_clustering_and_marker_plots.R`: the corresponding
   WT_5 workflow, used to inspect marker localization and the reproducibility of
   the clustering pattern in an independently prepared wild-type library.
+- `exploratory/03_crc2_seurat_clustering_and_marker_plots.R`: crc_2 Seurat
+  normalization, PCA, clustering and marker visualization. The spatial maps
+  for TPS24, AT1G62480, LHCB1.1 and AT1G56610 underlie Fig. 2p-s; additional
+  markers were inspected during tissue annotation.
 
-Both wild-type scripts use 30 principal components for PCA, dimensions 1-10
-for neighbor finding and UMAP, and a Seurat clustering resolution of 0.5.
-These scripts are retained as exploratory, library-specific analyses rather
-than presented as a single combined-sample workflow.
+All three library-specific scripts use 30 principal components for PCA,
+dimensions 1-10 for neighbor finding and UMAP, and a Seurat clustering
+resolution of 0.5. These scripts are retained as exploratory,
+library-specific analyses rather than presented as a single combined-sample
+workflow.
 
 ## Still required
 
-- crc_2 clustering and spatial marker maps.
 - WT-versus-crc differential-expression analysis for Fig. 2m.
 - Gene-set overlap analysis for Fig. 2n.
 - Final WT-versus-crc dot plot for Fig. 2o.
-- crc spatial marker plots for Fig. 2p-s.
 - A consolidated final script with explicit input and output filenames.
