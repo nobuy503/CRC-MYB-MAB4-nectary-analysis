@@ -11,7 +11,10 @@ remained paired. Each library was processed independently against the
 Arabidopsis thaliana TAIR10 reference genome.
 
 The vendor pipeline generated bead-level count matrices, matched-bead spatial
-coordinates, quality-control metrics, Seurat objects and AnnData (h5ad) files.
+coordinates, quality-control metrics and quality-metric spatial maps, Seurat
+objects and AnnData (h5ad) files. The quality-metric spatial maps shown in
+Fig. 2b and Fig. 2l were generated directly by the Curio Seeker Pipeline and
+were not produced using custom R code.
 No custom code was used for the initial Curio Seeker processing. The analysis
 procedure was based on the Curio Latch Portal User Guide (December 2024).
 The exact pipeline version and execution identifiers should be transcribed
@@ -33,7 +36,6 @@ Supplementary Data 5.
 
 ## Still required
 
-- WT_3 spatial quality-metric map for Fig. 2b.
 - WT_5 processing and its role in downstream analyses.
 - crc_2 clustering, spatial maps and quality-metric map.
 - WT-versus-crc differential-expression analysis for Fig. 2m.
