@@ -1,5 +1,13 @@
 # Analysis scripts
 
+## Finalized Figure 1 scripts
+
+- `final/12_figure_1d_flower_silique_deg_heatmap.R`: performs the Flower-versus-Silique Wilcoxon analysis, selects 100 significant genes by absolute log2 fold change, and draws the per-nucleus row-Z-scored heatmap with the 22 Seurat clusters annotated above the columns.
+- `final/13_figure_1k_n_fixed_gene_violin_plots.R`: draws the final cluster-wise violin plots for AT1G65970, MYB57 (AT3G01530), AT1G55670 and AT1G55330 using log-normalized RNA expression.
+- `final/14_figure_1p_t_flower_pseudotime_final.R`: verifies that the Flower-only object contains five Seurat clusters, uses the same Seurat UMAP coordinates for panels p and q, selects the trajectory root from CRC-expressing nuclei, plots CRC and AT1G65970 expression, and fits the six GAM-smoothed pseudotime curves.
+
+These scripts expect the processed Seurat objects under `data/processed/` and write their outputs to `results/figure1/`. They were consolidated from the source scripts to make all panel-specific choices explicit. They should be executed with the package versions reported in the Methods.
+
 The analysis scripts used in the manuscript will be organized here in execution order. Each final script will document its required inputs, software packages, parameters and generated outputs.
 
 ## Source scripts received
