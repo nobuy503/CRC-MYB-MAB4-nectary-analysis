@@ -16,4 +16,6 @@ The analysis scripts used in the manuscript will be organized here in execution 
 
 - `source/09_figure_1_go_enrichment_dotplots.R`: plots previously generated agriGO v2.0 SEA results for clusters 0, 15 and 19; the cluster 15 plot is associated with Fig. 1o. This script visualizes imported results and does not itself perform GO enrichment. The supplied source maps raw P values, so an FDR column must be used explicitly if the final panel is described as showing FDR-adjusted P values.
 
+- `source/10_cluster_marker_heatmap_exploration.R`: alternative exploratory heatmaps based on the top 100 or top 30 marker genes for each of the 22 Seurat clusters, including per-cell and cluster-average visualizations. It supports cluster-marker inspection and Supplementary Data 1, but is not the Flower-versus-Silique DEG heatmap in Fig. 1d.
+
 The source scripts contain exploratory commands as well as code used for figure preparation. The final reproducible versions will include explicit input instructions, streamlined plotting steps and named output files after the relevant figure panels and object-preparation workflow are confirmed.
