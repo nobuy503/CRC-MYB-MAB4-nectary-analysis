@@ -1,0 +1,24 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Large sequencing and analysis files
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.h5
+*.h5ad
+*.rds
+*.RData
+
+# Temporary files
+*.tmp
+*.log
